@@ -26,7 +26,7 @@
 
             transition: color 0.2s;
 
-            & + a {
+            &+a {
                 margin-left: 2rem;
             }
 
@@ -36,20 +36,20 @@
                 font-weight: bold;
             }
 
-            &.active{
+            &.active {
                 color: var(--white);
                 font-weight: bold;
             }
 
             &.active::after {
-               content: '';
-               height: 3px; 
-               border-radius: 3px 3px 0 0;
-               width: 100%;
-               position: absolute;
-               bottom: 1px;
-               left: 0;
-               background: var(--yellow-500);
+                content: '';
+                height: 3px;
+                border-radius: 3px 3px 0 0;
+                width: 100%;
+                position: absolute;
+                bottom: 1px;
+                left: 0;
+                background: var(--yellow-500);
             }
         }
     }
